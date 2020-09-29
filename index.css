@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -5,4 +12,179 @@
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.top {
+    text-align: center;
+    background: url("./images/bg-header-desktop.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+h1,
+h2 {
+    font-weight: 600;
+}
+
+.heading {
+    font-size: 48px;
+}
+
+.subheading {
+    font-size: 40px;
+}
+
+.thirdHeading {
+    font-size: 35px;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    font-size: 20px;
+}
+
+.subPar {
+    margin: auto;
+    max-width: 55%;
+    font-size: 22px;
+}
+
+.buttonSpan {
+    margin-top: 30px;
+}
+
+button {
+    color: white;
+    padding: 20px 5px;
+    border-radius: 30px;
+    border: none;
+    width: 15%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo {
+    width: 180px;
+    margin: 80px auto 40px auto;
+}
+
+.ios {
+    margin: 30px;
+    background-color: hsl(171, 66%, 60%);
+    box-shadow: 0 5px 7px hsl(171, 66%, 44%);
+}
+
+.mac {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 5px 7px hsl(233, 100%, 53%);
+}
+
+.snippets,
+.clipboard,
+.reminders{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.chargeHero {
+    text-align: center;
+}
+
+.pcContainer {
+    display: flex;
+    margin-top: 5%;
+}
+
+.pcHalf {
+    width: 60%;
+    margin-left: -10%;
+}
+
+.pcPointers {
+    margin-left: 5%;
+    margin-top: 2%;
+    max-width: 30%;
+}
+
+.textLeftAlign {
+    float: left;
+    margin: none;
+    text-align: left;
+}
+
+.reduceSpace {
+    margin-top: -7%;
+}
+
+.deviceMargin {
+    margin-top: 4%;
+    margin-bottom: -8%;
+}
+
+.chargeDiv {
+    width: 60% !important;
+    margin: auto;
+}
+
+.iconTexts {
+    text-align: center;
+    width: 33%;
+}
+
+.superchargeFlex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.superPar {
+    width: 80% !important;
+    font-size: 18px;
+    margin: auto;
+}
+
+.companyFlex{
+    display: flex;
+    justify-content: center;
+    margin: 10% 0;
+}
+
+.company{
+    margin: 0 4%;
+    width: auto;
+}
+
+.footerFlex{
+    display: flex;
+    text-align: center;
+    background-color: gainsboro;
+    height: 10vh;
+    line-height: 10vh;
+}
+
+.footerIcon {
+    width: 50px;
+    margin-top: 10%;
+}
+
+.footerSmall {
+    flex-grow: 1;
+}
+
+.footerMedium {
+    flex-grow: 2;
+}
+
+.footerLarge {
+    flex-grow: 3;
+    flex-wrap: wrap;
+}
+
+.links {
+    margin: 30px;
+}
+
+.socials {
+    margin: 30px 15px 0 15px;
 }
